@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke-API Estudo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1 id="myH1">Poke-API</h1>
+
+        <div id="imgContainer">
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
+        </div><br>
+        
+        <div id="dataContainer">
+            <label id="idLabel">ID:</label>
+            <label id="type1Label">Main type:</label>
+            <label id="type2Label">Secondary type:</label>
+            <label id="abilityLabel">RandAbility:</label>
+        </div><br>
+
+        <input type="text" id="pokemonName" placeholder="Enter pokemon name"><br>
+
+        <button class="myButton" onclick="pegarData()">submit</button>
+        <button class="myButton" onclick="randomizar()">random</button><br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
